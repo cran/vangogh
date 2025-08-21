@@ -1,22 +1,19 @@
 Package: vangogh
-Type: Package
-Title: A Vincent Van Gogh Color Palette Generator
-Version: 0.1.1
-Authors@R: person("Cheryl", "Isabella", email = "cheryl.academic@gmail.com",
-  role = c("aut", "cre"))
-Maintainer: Cheryl Isabella <cheryl.academic@gmail.com>
-Description: Palettes generated from Vincent van Gogh's paintings.
+Title: Vincent Van Gogh Colour Palette Generator
+Version: 0.1.2
+Authors@R: person(given = "Cheryl", family = "Isabella", role = c("aut", "cre"), email = "cheryl.academic@gmail.com")
+Description: Provides 'ggplot2'-compatible colour palettes inspired by Vincent van Gogh's paintings. Each palette contains five colours, manually selected by hexadecimal values.
 License: MIT + file LICENSE
-Depends: R (>= 3.0)
 Encoding: UTF-8
-Imports: ggplot2
-Suggests: knitr, rmarkdown, scales, testthat (>= 3.0.0)
-URL: https://github.com/cherylisabella/vangogh
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.2
+Imports: ggplot2, rlang, methods
+Suggests: scales, knitr, rmarkdown, colorspace, jsonlite
 VignetteBuilder: knitr
-Config/testthat/edition: 3
+URL: https://github.com/cherylisabella/vangogh
+BugReports: https://github.com/cherylisabella/vangogh/issues
 NeedsCompilation: no
-Packaged: 2022-05-26 14:32:06 UTC; Isabella
+Packaged: 2025-08-21 13:49:52 UTC; Isabella
 Author: Cheryl Isabella [aut, cre]
+Maintainer: Cheryl Isabella <cheryl.academic@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-05-27 08:00:02 UTC
+Date/Publication: 2025-08-21 14:20:02 UTC
