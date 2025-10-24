@@ -20,7 +20,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Cheryl Isabella \email{cheryl.academic@gmail.com}
+\strong{Maintainer}: Cheryl Isabella Lim \email{cheryl.academic@gmail.com}
 
 }
 \keyword{internal}
